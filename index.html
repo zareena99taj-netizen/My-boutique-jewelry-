@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Elegant Jewelry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <h1>Elegant Jewelry</h1>
+  <p>Rings • Earrings • Necklaces • Bracelets</p>
+</header>
+
+<!-- CATEGORY NAVIGATION -->
+<nav class="category-nav">
+  <button onclick="filterProducts('all')">All</button>
+  <button onclick="filterProducts('rings')">Rings</button>
+  <button onclick="filterProducts('earrings')">Earrings</button>
+  <button onclick="filterProducts('necklaces')">Necklaces</button>
+  <button onclick="filterProducts('bracelets')">Bracelets</button>
+</nav>
+
+<!-- PRODUCTS SECTION -->
+<section class="products">
+
+  <!-- RINGS -->
+  <div class="card rings">
+    <div class="img-container">
+      <img src="ring1.jpg">
+      <span class="price-tag">₹299</span>
+    </div>
+    <h3>Gold Band Ring</h3>
+    <a class="btn" href="https://wa.me/918767338825">Order on WhatsApp</a>
+  </div>
+
+  <div class="card rings">
+    <div class="img-container">
+      <img src="ring2.jpg">
+      <span class="price-tag">₹349</span>
+    </div>
+    <h3>Diamond Ring</h3>
+    <a class="btn" href="https://wa.me/918767338825">Order on WhatsApp</a>
+  </div>
+
+  <div class="card rings">
+    <div class="img-container">
+      <img src="ring3.jpg">
+      <span class="price-tag">₹399</span>
+    </div>
+    <h3>Minimal Ring</h3>
+    <a class="btn" href="https://wa.me/918767338825">Order on WhatsApp</a>
+  </div>
+
+  <div class="card rings">
+    <div class="img-container">
+      <img src="ring4.jpg">
+      <span class="price-tag">₹549</span>
+    </div>
+    <h3>Statement Ring</h3>
+    <a class="btn" href="https://wa.me/918767338825">Order on WhatsApp</a>
+  </div>
+
+  <!-- EARRINGS -->
+  <div class="card earrings">
+    <div class="img-container">
+      <img src="earring1.jpg">
+      <span class="price-tag">₹249</span>
+    </div>
+    <h3>Pearl Earrings</h3>
+    <a class="btn" href="https://wa.me/918767338825">Order on WhatsApp</a>
+  </div>
+
+  <div class="card earrings">
+    <div class="img-container">
+      <img src="earring2.jpg">
+      <span class="price-tag">₹279</span>
+    </div>
+    <h3>Hoop Earrings</h3>
+    <a class="btn" href="https://wa.me/918767338825">Order on WhatsApp</a>
+  </div>
+
+  <div class="card earrings">
+    <div class="img-container">
+      <img src="earring3.jpg">
+      <span class="price-tag">₹299</span>
+    </div>
+    <h3>Bloom Earrings</h3>
+    <a class="btn" href="https://wa.me/918767338825">Order on WhatsApp</a>
+  </div>
+
+  <div class="card earrings">
+    <div class="img-container">
+      <img src="earring4.jpg">
+      <span class="price-tag">₹349</span>
+    </div>
+    <h3>Classic Hoops</h3>
+    <a class="btn" href="https://wa.me/918767338825">Order on WhatsApp</a>
+  </div>
+
+  <!-- NECKLACES -->
+  <div class="card necklaces">
+    <div class="img-container">
+      <img src="necklace1.jpg">
+      <span class="price-tag">₹499</span>
+    </div>
+    <h3>Grace Chain</h3>
+    <a class="btn" href="https://wa.me/918767338825">Order on WhatsApp</a>
+  </div>
+
+  <div class="card necklaces">
+    <div class="img-container">
+      <img src="necklace2.jpg">
+      <span class="price-tag">₹649</span>
+    </div>
+    <h3>Moon Pendant</h3>
+    <a class="btn" href="https://wa.me/918767338825">Order on WhatsApp</a>
+  </div>
+
+  <div class="card necklaces">
+    <div class="img-container">
+      <img src="necklace3.jpg">
+      <span class="price-tag">₹699</span>
+    </div>
+    <h3>Layered Necklace</h3>
+    <a class="btn" href="https://wa.me/918767338825">Order on WhatsApp</a>
+  </div>
+
+  <div class="card necklaces">
+    <div class="img-container">
+      <img src="necklace4.jpg">
+      <span class="price-tag">₹749</span>
+    </div>
+    <h3>Elegant Pearl Look</h3>
+    <a class="btn" href="https://wa.me/918767338825">Order on WhatsApp</a>
+  </div>
+
+  <!-- BRACELETS -->
+  <div class="card bracelets">
+    <div class="img-container">
+      <img src="bracelet1.jpg">
+      <span class="price-tag">₹349</span>
+    </div>
+    <h3>Charm Bracelet</h3>
+    <a class="btn" href="https://wa.me/918767338825">Order on WhatsApp</a>
+  </div>
+
+  <div class="card bracelets">
+    <div class="img-container">
+      <img src="bracelet2.jpg">
+      <span class="price-tag">₹299</span>
+    </div>
+    <h3>Delicate Chain</h3>
+    <a class="btn" href="https://wa.me/918767338825">Order on WhatsApp</a>
+  </div>
+
+  <div class="card bracelets">
+    <div class="img-container">
+      <img src="bracelet3.jpg">
+      <span class="price-tag">₹399</span>
+    </div>
+    <h3>Classic Bangle</h3>
+    <a class="btn" href="https://wa.me/918767338825">Order on WhatsApp</a>
+  </div>
+
+  <div class="card bracelets">
+    <div class="img-container">
+      <img src="bracelet4.jpg">
+      <span class="price-tag">₹279</span>
+    </div>
+    <h3>Minimal Wristwear</h3>
+    <a class="btn" href="https://wa.me/918767338825">Order on WhatsApp</a>
+  </div>
+
+</section>
+
+<!-- JS FOR CATEGORY FILTER -->
+<script>
+function filterProducts(category) {
+  const cards = document.querySelectorAll('.card');
+  cards.forEach(card => {
+    if (category === 'all') {
+      card.style.display = 'block';
+    } else {
+      card.style.display = card.classList.contains(category) ? 'block' : 'none';
+    }
+  });
+}
+</script>
+
+</body>
+</html>
